@@ -201,10 +201,10 @@ h3{
         margin: 5%;
     }
     .barra :hover{
-    color: white;
+        color: white;
     }       
     
-    h1{
+    .animate__animated{
         font-size: 70px;
     }
     
@@ -230,6 +230,9 @@ h3{
         } 
     h4{
         font-size: 20px;
+    }
+    .titulo{
+        font-size: 25px;
     }
     .lista{
         font-size: 15px;
@@ -309,10 +312,10 @@ h5{
         margin: 5%;
     }
     .barra :hover{
-        color: #white;
+        color: white;
     }       
     
-    h1{
+    .animate__animated{
         font-size: 60px;
     }
     
@@ -340,6 +343,9 @@ h5{
     h4{
         font-size: 12px;
         text-align: center;
+    }
+    .titulo{
+        font-size: 25px;
     }
     .lista{
         font-size: 10px;
