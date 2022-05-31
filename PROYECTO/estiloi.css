@@ -15,11 +15,26 @@
     border-bottom: 10px beige solid;
     border-left: 10px beige solid;
     border-right: 10px beige solid;
+    animation-duration: 3s;
+    animation-name: random;
+    animation-iteration-count: initial;
 }
 .barra :hover{
     color: #B4BF5E;
-    ;
 }   
+
+@keyframes random {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0,6;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 body{
     background-color: #B4BF5E;
 }
@@ -27,7 +42,9 @@ body{
     display: flex;
     gap: 5rem;
     justify-content: center;
-    align-items: center;
+    align-items: center;animation-duration: 3s;
+    animation-name: random;
+    animation-iteration-count: initial;
 }
        
 .fotos img {
@@ -65,7 +82,17 @@ body{
     animation-name: aparecer;
     animation-iteration-count: initial;
 }
-
+@keyframes aparecer {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0,5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
 h4{
     color: black;
     font-family: 'Montserrat', sans-serif;
@@ -116,6 +143,9 @@ h4{
     grid-template-areas: 
     "foto1 foto2 foto3"
     "foto4 foto5 foto6";
+    animation-duration: 3s;
+    animation-name: random;
+    animation-iteration-count: initial;
 }
 .fotosgaleria :hover{
     transform: scale(1.1,1.1);
