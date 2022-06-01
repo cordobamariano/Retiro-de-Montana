@@ -1,38 +1,19 @@
 /***************************TODAS***************************/
-.barra a{
+.navbar a{
     color: black;
 }
 
-.barra{
+.navbar{
     background-color: beige;
     padding: 30px;
     height: 100%;
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
-    text-align: center;
     margin: 5%;
     border-top: 10px beige solid;
     border-bottom: 10px beige solid;
     border-left: 10px beige solid;
     border-right: 10px beige solid;
-    animation-duration: 3s;
-    animation-name: random;
-    animation-iteration-count: initial;
-}
-.barra :hover{
-    color: #B4BF5E;
-}   
-
-@keyframes random {
-    0%{
-        opacity: 0;
-    }
-    50%{
-        opacity: 0,6;
-    }
-    100%{
-        opacity: 1;
-    }
 }
 
 body{
@@ -75,7 +56,8 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     text-align: center;
-    padding: 50;
+    padding: 50px;
+    
 }
 .titulo{
     animation-duration: 4s;
@@ -109,16 +91,12 @@ h4{
 .formulario{
     color: black;
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: 1.5rem;
     text-align: center;
+    align-items: center;
     padding: 10px;
     margin: 80px;
-    border-top: 5px beige solid;
-    border-bottom: 5px beige solid;
-    border-left: 5px beige solid;
-    border-right: 5px beige solid;
-    border-radius: 15%;
-    overflow: visible;
+    width: 30%;
 } 
    
 
@@ -167,6 +145,7 @@ h3{
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     text-align: center;
+    padding: 50px;
 }
 
 /***************************TARIFAS***************************/
@@ -179,11 +158,12 @@ h3{
 
 /***************************NOSOTROS***************************/
 
-.tabla{
+.table{
     margin: 0 auto;
     color: black;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
+    align-items: center;
 }
 /************************MEDIA QUERRIE TABLET********************************/
 
