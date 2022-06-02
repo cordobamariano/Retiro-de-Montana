@@ -36,7 +36,6 @@ body{
 .fotos :hover{
     transform: scale(1.2,1.2);
 } 
-
 .hr{
     border-color: black;
     border-width: 3px;
@@ -54,7 +53,7 @@ body{
 .titulo{
     color: black;
     font-family: 'Montserrat', sans-serif;
-    font-size: 50px;
+    font-size: 3.1rem;
     text-align: center;
     padding: 50px;
     
@@ -94,9 +93,6 @@ h4{
     font-size: 1.5rem;
     text-align: center;
     align-items: center;
-    padding: 10px;
-    margin: 80px;
-    width: 30%;
 } 
    
 
@@ -110,29 +106,7 @@ h4{
 }
 
 /***************************GALERIA***************************/
-.fotosgaleria{
-    margin: 5%;
-    height: 100%;
-    display: grid;
-    justify-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 25px;
-    grid-template-areas: 
-    "foto1 foto2 foto3"
-    "foto4 foto5 foto6";
-    animation-duration: 3s;
-    animation-name: random;
-    animation-iteration-count: initial;
-}
-.fotosgaleria :hover{
-    transform: scale(1.1,1.1);
-}
-.fotosgaleria img {
-    max-width: 80%;
-    transition: 200ms ease-in-out;
-    box-shadow: 0px 0px 5px 2px black;
-} 
+
 h3{
     color: black;
     font-family: 'Montserrat', sans-serif;
@@ -209,13 +183,14 @@ h3{
         font-size: 15px;
         } 
     h4{
-        font-size: 20px;
+        font-size: 30px;
+        
     }
     .titulo{
         font-size: 25px;
     }
     .lista{
-        font-size: 15px;
+        font-size: 20px;
         padding: 0;
     }       
     .formulario{
@@ -341,25 +316,8 @@ h5{
         border-radius: 1px;
     }           
 /*****GALERIA**********/
-.fotosgaleria{
-    margin-left: 15%;
-    display: grid;
-    grid-template-columns: 1fr ;
-    grid-template-rows: repeat(6, 1fr);
-    gap:20px;
-    grid-template-areas: 
-    "foto1"
-    "foto2" 
-    "foto3" 
-    "foto4"
-    "foto5" 
-    "foto6";
-}
-    
-.fotosgaleria img {
-    max-width: 80%;
-}
-    
+
+  
 h3{
     font-size: 20px;
 }  
@@ -393,4 +351,5 @@ EN LAS MEDIA QUERRIES CAMBIE VALORES DE TEXTO, Y DE POSICION EN TODOS ELEMENTOS 
 APLIQUE ANIMACIONES EN ENCABEZADO, BARRA DE NAVEGACION, IMAGENES Y TITULOS
 CREE RAMA CON NOMBRE "ANIMACIONES" 
 UNI LA RAMA A LA MASTER. 
-MODIFIQUE VALORES EN MEDIA QUERRIES PARA QUE QUEDE RESPONSIVE******************/
+MODIFIQUE VALORES EN MEDIA QUERRIES PARA QUE QUEDE RESPONSIVE
+APLIQUE BOOSTRAP EN LAS IMAGENES DE LA PAGINA GALERIA******************/
