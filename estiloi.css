@@ -77,7 +77,7 @@ body{
 .recibimos{
     color: black;
     font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     text-align: center;
 }
 .lista{
@@ -93,6 +93,7 @@ body{
     font-size: 1.5rem;
     text-align: center;
     align-items: center;
+    width: 20%;
 } 
    
 
@@ -187,17 +188,21 @@ h3{
         
     }
     .titulo{
-        font-size: 25px;
+        font-size: 30px;
     }
     .lista{
         font-size: 20px;
         padding: 0;
-    }       
+    }     
+    .listai{
+        font-size: 20px;
+    }  
     .formulario{
         justify-content: center;
         font-size: 15px;
         margin-bottom: 5%;
         margin-top: 5%;
+        width: 50%;
     } 
     .hr{
         border-color: black;
@@ -234,13 +239,16 @@ h3{
 }  
      
 .texto{
-    font-size: 15px;
+    font-size: 20px;
 }  
         
 /***************************TARIFAS***************************/
 .CALCULA{
     font-size: 20px;
 }   
+.recibimos{
+    font-size: 25px;
+}
 /***************************NOSOTROS***************************/
 h5{
     font-size: 30px;
@@ -290,7 +298,9 @@ h5{
     .fotos img{
         max-width: 80%;
     }
-            
+    .recibimos{
+        font-size: 20px;
+    }        
    
     .listai{
         font-size: 15px;
@@ -309,6 +319,7 @@ h5{
     .formulario{
         font-size: 13px;
         margin: 20px;
+        width: 50%;
     } 
     .hr{
         border-color: black;
@@ -352,4 +363,6 @@ APLIQUE ANIMACIONES EN ENCABEZADO, BARRA DE NAVEGACION, IMAGENES Y TITULOS
 CREE RAMA CON NOMBRE "ANIMACIONES" 
 UNI LA RAMA A LA MASTER. 
 MODIFIQUE VALORES EN MEDIA QUERRIES PARA QUE QUEDE RESPONSIVE
-APLIQUE BOOSTRAP EN LAS IMAGENES DE LA PAGINA GALERIA******************/
+APLIQUE BOOSTRAP EN LAS IMAGENES DE LA PAGINA GALERIA.
+CORRECCIONES EN MEDIAQUERRIES (FONT-SIZE).
+SE AÑADIERON EFECTOS "ANIMATE" EN ENCABEZADO, TITULOS, TEXTOS.******************/
