@@ -74,16 +74,16 @@ body{
         opacity: 1;
     }
 }
-h4{
+.recibimos{
     color: black;
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
 }
 .lista{
     color: black;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     list-style-type: none;
     text-align: center;
 }
@@ -182,7 +182,7 @@ h3{
     .listai{
         font-size: 15px;
         } 
-    h4{
+    .texto2{
         font-size: 30px;
         
     }
@@ -293,9 +293,9 @@ h5{
             
    
     .listai{
-        font-size: 12px;
+        font-size: 15px;
         } 
-    h4{
+    .texto2{
         font-size: 12px;
         text-align: center;
     }
