@@ -53,10 +53,9 @@ body{
 .titulo{
     color: black;
     font-family: 'Montserrat', sans-serif;
-    font-size: 3.1rem;
+    font-size: 3.3rem;
     text-align: center;
     padding: 45px;
-    
 }
 .titulo{
     animation-duration: 4s;
@@ -74,6 +73,7 @@ body{
         opacity: 1;
     }
 }
+
 .recibimos{
     color: black;
     font-family: 'Montserrat', sans-serif;
@@ -95,13 +95,15 @@ body{
     align-items: center;
     width: 20%;
 } 
+
 /***************************INDEX***************************/
-.listai{
-    list-style-type: none;
+.titulo2{
     color: black;
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-size: 2.6rem;
     text-align: center;
+    padding: 45px;
+    
 }
 .social-icons {
     margin-top: 30px;
@@ -201,9 +203,14 @@ h3{
         font-size: 20px;
         padding: 0;
     }     
-    .listai{
-        font-size: 20px;
-    }  
+    .titulo2{
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.6rem;
+        text-align: center;
+        padding: 45px;
+        
+    }
     .formulario{
         justify-content: center;
         font-size: 15px;
