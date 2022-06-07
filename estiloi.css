@@ -105,15 +105,6 @@ body{
     padding: 45px;
     
 }
-.social-icons {
-    margin-top: 30px;
-}
-
-.btn {
-    padding: 10px 25px 10px 25px;
-    border: none;
-    font-size: 30px;
-}
 
 /***************************GALERIA***************************/
 
@@ -189,9 +180,7 @@ h3{
     .fotos img {
         max-width: 60%;
     }   
-    .listai{
-        font-size: 15px;
-        } 
+    
     .texto2{
         font-size: 30px;
         
@@ -316,9 +305,6 @@ h5{
         font-size: 20px;
     }        
    
-    .listai{
-        font-size: 15px;
-        } 
     .texto2{
         font-size: 12px;
         text-align: center;
@@ -379,4 +365,7 @@ UNI LA RAMA A LA MASTER.
 MODIFIQUE VALORES EN MEDIA QUERRIES PARA QUE QUEDE RESPONSIVE
 APLIQUE BOOSTRAP EN LAS IMAGENES DE LA PAGINA GALERIA.
 CORRECCIONES EN MEDIAQUERRIES (FONT-SIZE).
-SE AÑADIERON EFECTOS "ANIMATE" EN ENCABEZADO, TITULOS, TEXTOS.******************/
+SE AÑADIERON EFECTOS "ANIMATE" EN ENCABEZADO, TITULOS, TEXTOS.
+AÑADI OTRO CAROUSEL EN GALERIA PARA QUE QUEDE MAS SIMILAR AL FRAMEWORK, EL TEXTO QUE ESTABA EN GALERIA LO PASE AL INDEX. 
+AGREGUE ICONOS DE REDES SOCIALES COMO INDICABA MI FRAMEWORK.
+******************/
