@@ -9,8 +9,10 @@
   border-bottom: 10px beige solid;
   border-left: 10px beige solid;
   border-right: 10px beige solid; }
-  .navbar .navbar a {
+  .navbar.navbar a {
     color: black; }
+    .navbar.navbar a:hover {
+      transform: scale(1.1, 1.1); }
 
 .fotos {
   display: flex;
@@ -20,10 +22,10 @@
   animation-duration: 3s;
   animation-name: random;
   animation-iteration-count: initial; }
-  .fotos .fotos img {
+  .fotos.fotos img {
     transition: 200ms ease-in-out;
     box-shadow: 0px 0px 5px 2px black; }
-    .fotos .fotos img .fotos :hover {
+    .fotos.fotos img:hover {
       transform: scale(1.2, 1.2); }
 
 .titulo {
@@ -31,11 +33,10 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 3.3rem;
   text-align: center;
-  padding: 45px; }
-  .titulo .titulo {
-    animation-duration: 4s;
-    animation-name: aparecer;
-    animation-iteration-count: initial; }
+  padding: 45px;
+  animation-duration: 4s;
+  animation-name: aparecer;
+  animation-iteration-count: initial; }
 
 @keyframes aparecer {
   0% {
@@ -50,20 +51,29 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 2.6rem;
   text-align: center;
-  padding: 45px; }
+  padding: 45px;
+  animation-duration: 4s;
+  animation-name: aparecer;
+  animation-iteration-count: initial; }
 
 .recibimos {
   color: black;
   font-family: 'Montserrat', sans-serif;
-  font-size: 40px;
-  text-align: center; }
+  font-size: 2.5rem;
+  text-align: center;
+  animation-duration: 4s;
+  animation-name: aparecer;
+  animation-iteration-count: initial; }
 
 .lista {
   color: black;
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   list-style-type: none;
-  text-align: center; }
+  text-align: center;
+  animation-duration: 4s;
+  animation-name: aparecer;
+  animation-iteration-count: initial; }
 
 .formulario {
   color: black;
@@ -78,7 +88,10 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 25px;
   text-align: center;
-  padding: 50px; }
+  padding: 50px;
+  animation-duration: 4s;
+  animation-name: aparecer;
+  animation-iteration-count: initial; }
 
 /***************************NOSOTROS***************************/
 .table {
@@ -131,8 +144,7 @@ body {
     display: grid;
     padding-bottom: 20px;
     grid-template-columns: 1fr;
-    grid-template-areas: "foto1"
- "foto2"; }
+    grid-template-areas: "foto1" "foto2"; }
     .fotos .fotos img {
       max-width: 60%; }
   .titulo {
@@ -155,7 +167,7 @@ body {
   .hr {
     border-color: black;
     border-width: 2px;
-    border-radius: 2px; } 
+    border-radius: 2px; } }
 
 /*****GALERIA**********/
 .fotosgaleria {
@@ -165,12 +177,7 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: repeat(6, 1fr);
   gap: 45px;
-  grid-template-areas: "foto1"
- "foto2" 
- "foto3" 
- "foto4"
- "foto5" 
- "foto6"; }
+  grid-template-areas: "foto1" "foto2"  "foto3"  "foto4" "foto5"  "foto6"; }
   .fotosgaleria .fotosgaleria img {
     max-width: 100%; }
 
@@ -192,7 +199,6 @@ h5 {
   margin: 0 auto;
   font-size: 15px; }
 
-}
 /************************MEDIA QUERRIE MOBILE********************************/
 @media screen and (max-width: 480px) {
   .barra {
@@ -219,8 +225,7 @@ h5 {
     margin: 10%;
     justify-content: center;
     grid-template-columns: 1fr;
-    grid-template-areas: "foto1"
- "foto2"; }
+    grid-template-areas: "foto1" "foto2"; }
     .fotos .fotos img {
       max-width: 80%; }
   .recibimos {
@@ -251,5 +256,4 @@ h5 {
     font-size: 29px; }
   .tabla {
     margin: 0 auto;
-    font-size: 15px; }
-   }
+    font-size: 15px; } }
