@@ -1,4 +1,6 @@
 $colorFondo: #B4BF5E;
+$montserrat: 'Montserrat', sans-serif;
+$indie: 'Indie Flower', cursive;
 
 @import "header";
 @import "main";
@@ -19,11 +21,27 @@ body{
 
 .encabezado{
     color: black;
-    font-family: 'Indie Flower', cursive;
+    font-family: $indie;
     font-size: 130px;
     margin: 0;
     font-weight: bold;
     text-align: center;    
+}
+
+#haciaArriba{
+    width: 50px;
+    height: 45px;
+    position: fixed;
+    bottom: 4em;
+    right: 3em;
+    background-color: $colorFondo;
+    padding: .2em;
+    border-radius: 8px;
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
 }
 
 /************************MEDIA QUERRIE TABLET********************************/
