@@ -1,7 +1,8 @@
 # Ignora la carpeta node_modules
 node_modules/
 
-package-lock.json
+# Ignorar ficheros JSON
+*package-lock.json
 
-package.json
-
+#Seguir un fichero JSON concreto
+!package.json
