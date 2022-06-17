@@ -2,15 +2,15 @@
     background-color: beige;
     padding: 30px;
     height: 100%;
-    font-family: $montserrat;
-    font-size: 40px;
     margin: 5%;
     border-top: 10px beige solid;
     border-bottom: 10px beige solid;
     border-left: 10px beige solid;
     border-right: 10px beige solid;
     &.navbar a{
+        font-family: $montserrat;
         color: black;
+        font-size: 40px;
         &:hover{
             transform: scale(1.1,1.1);
         } 

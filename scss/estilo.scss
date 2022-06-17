@@ -47,28 +47,7 @@ body{
 /************************MEDIA QUERRIE TABLET********************************/
 
 @media screen and (max-width:768px){
-    .barra{
-        color: black;
-        padding: 30px;
-        border: 10px;
-        font-size: 23px;
-        border-top: 10px beige solid;
-        border-bottom: 10px beige solid;
-        border-left: 10px beige solid;
-        border-right: 10px beige solid;
-        overflow: visible;
-        margin: 5%;
-        .barra :hover{
-            color: white;
-            .animate__animated{
-                font-size: 70px;
-            }
-        }
-    }
-           
-    h2{
-      font-size: 30px;
-    }
+    
     .fotos{
         margin: 0;
         justify-items: center;
@@ -84,24 +63,18 @@ body{
         } 
     } 
      
-    .titulo{
-        font-size: 30px;
-    }
     .lista{
-        font-size: 20px;
         padding: 0;
     }     
     .titulo2{
         color: black;
         font-family: 'Montserrat', sans-serif;
-        font-size: 1.6rem;
         text-align: center;
         padding: 45px;
         
     }
     .formulario{
         justify-content: center;
-        font-size: 15px;
         margin-bottom: 5%;
         margin-top: 5%;
         width: 50%;
@@ -110,6 +83,9 @@ body{
         border-color: black;
         border-width: 2px;
         border-radius: 2px;
+    }
+    .titulo3{
+        font-size: 2rem;
     }
 }            
 
@@ -132,52 +108,21 @@ body{
             max-width: 100%;
         }
     }
-    h3{
-        font-size: 20px;
-    }  
-    .texto{
-        font-size: 20px;
-    }  
-        
-/***************************TARIFAS***************************/
-  
-    .recibimos{
-        font-size: 25px;
-    }
+            
 /***************************NOSOTROS***************************/
-    h5{
-        font-size: 30px;
-    }   
+    
     .tabla{
         margin: 0 auto;
-        font-size: 15px; 
-    }         
+        }         
+             
+                
         
 /************************MEDIA QUERRIE MOBILE********************************/
 
 @media screen and (max-width:480px){
-    .barra{
-        color: black;
-        padding: 30px;
-        border: 20px;
-        height: 40px;
-        font-size: 20px;
-        border-top: 10px beige solid;
-        border-bottom: 10px beige solid;
-        border-left: 10px beige solid;
-        border-right: 10px beige solid;
-        overflow: visible;
-        margin: 5%;
-        .barra :hover{
-            color: white;
-            .animate__animated{
-                font-size: 60px;
-            }
-        }
-    }
-           
-    h2{
-      font-size: 15px;
+       
+    .encabezado{
+        font-size: 40px;
     }
 
     .fotos{
@@ -194,23 +139,14 @@ body{
         }
     } 
     
-    .recibimos{
-        font-size: 20px;
-    }        
-   
     .texto2{
-        font-size: 12px;
         text-align: center;
     }
-    .titulo{
-        font-size: 25px;
-    }
     .lista{
-        font-size: 10px;
+        font-size: 15px;
         padding: 0;
     }       
     .formulario{
-        font-size: 13px;
         margin: 20px;
         width: 50%;
     } 
@@ -218,20 +154,22 @@ body{
         border-color: black;
         border-width: 1px;
         border-radius: 1px;
-    }           
-/*****GALERIA**********/
-
-    h3{
-        font-size: 20px;
     }  
-     
-    .texto{
-        font-size: 15px;
-    }  
- /***************************NOSOTROS***************************/
-    h5{
-        font-size: 29px;
+          
+    .titulo3{
+        font-size: 1rem;
     }
+    .recibimos{
+        font-size: 1rem;
+    }
+    .video{
+        width: auto;
+        padding: 60px;
+        display: flex;
+        justify-content: center;
+    }
+
+ /***************************NOSOTROS***************************/
     .tabla{
         margin: 0 auto;
         font-size: 15px;

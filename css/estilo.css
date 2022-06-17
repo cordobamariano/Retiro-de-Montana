@@ -2,15 +2,15 @@
   background-color: beige;
   padding: 30px;
   height: 100%;
-  font-family: "Montserrat", sans-serif;
-  font-size: 40px;
   margin: 5%;
   border-top: 10px beige solid;
   border-bottom: 10px beige solid;
   border-left: 10px beige solid;
   border-right: 10px beige solid; }
   .navbar.navbar a {
-    color: black; }
+    font-family: "Montserrat", sans-serif;
+    color: black;
+    font-size: 40px; }
     .navbar.navbar a:hover {
       transform: scale(1.1, 1.1); }
 
@@ -28,7 +28,7 @@
     .fotos.fotos img:hover {
       transform: scale(1.2, 1.2); }
 
-.titulo {
+.titulo2 {
   color: black;
   font-family: "Montserrat", sans-serif;
   font-size: 3.3rem;
@@ -46,16 +46,6 @@
   100% {
     opacity: 1; } }
 
-.titulo2 {
-  color: black;
-  font-family: "Montserrat", sans-serif;
-  font-size: 2.6rem;
-  text-align: center;
-  padding: 45px;
-  animation-duration: 4s;
-  animation-name: aparecer;
-  animation-iteration-count: initial; }
-
 .recibimos {
   color: black;
   font-family: "Montserrat", sans-serif;
@@ -68,7 +58,7 @@
 .lista {
   color: black;
   font-family: "Montserrat", sans-serif;
-  font-size: 30px;
+  font-size: 2rem;
   list-style-type: none;
   text-align: center;
   animation-duration: 4s;
@@ -83,10 +73,10 @@
   align-items: center;
   width: 20%; }
 
-.texto {
+.texto, .texto2 {
   color: black;
   font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
   padding: 50px;
   animation-duration: 4s;
@@ -99,12 +89,31 @@
   display: flex;
   justify-content: center; }
 
+.titulo3 {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.3rem;
+  text-align: center;
+  padding: 45px;
+  animation-duration: 4s;
+  animation-name: aparecer;
+  animation-iteration-count: initial;
+  font-size: 3rem; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0,5; }
+  100% {
+    opacity: 1; } }
+
 /***************************NOSOTROS***************************/
 .table {
   margin: 0 auto;
   color: black;
   font-family: "Montserrat", sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   align-items: center; }
 
 /***************************TODAS***************************/
@@ -139,23 +148,6 @@ body {
 
 /************************MEDIA QUERRIE TABLET********************************/
 @media screen and (max-width: 768px) {
-  .barra {
-    color: black;
-    padding: 30px;
-    border: 10px;
-    font-size: 23px;
-    border-top: 10px beige solid;
-    border-bottom: 10px beige solid;
-    border-left: 10px beige solid;
-    border-right: 10px beige solid;
-    overflow: visible;
-    margin: 5%; }
-    .barra .barra :hover {
-      color: white; }
-      .barra .barra :hover .animate__animated {
-        font-size: 70px; }
-  h2 {
-    font-size: 30px; }
   .fotos {
     margin: 0;
     justify-items: center;
@@ -166,27 +158,24 @@ body {
     grid-template-areas: "foto1" "foto2"; }
     .fotos .fotos img {
       max-width: 60%; }
-  .titulo {
-    font-size: 30px; }
   .lista {
-    font-size: 20px;
     padding: 0; }
   .titulo2 {
     color: black;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.6rem;
     text-align: center;
     padding: 45px; }
   .formulario {
     justify-content: center;
-    font-size: 15px;
     margin-bottom: 5%;
     margin-top: 5%;
     width: 50%; }
   .hr {
     border-color: black;
     border-width: 2px;
-    border-radius: 2px; } }
+    border-radius: 2px; }
+  .titulo3 {
+    font-size: 2rem; } }
 
 /*****GALERIA**********/
 .fotosgaleria {
@@ -200,44 +189,14 @@ body {
   .fotosgaleria .fotosgaleria img {
     max-width: 100%; }
 
-h3 {
-  font-size: 20px; }
-
-.texto {
-  font-size: 20px; }
-
-/***************************TARIFAS***************************/
-.recibimos {
-  font-size: 25px; }
-
 /***************************NOSOTROS***************************/
-h5 {
-  font-size: 30px; }
-
 .tabla {
-  margin: 0 auto;
-  font-size: 15px; }
+  margin: 0 auto; }
 
 /************************MEDIA QUERRIE MOBILE********************************/
 @media screen and (max-width: 480px) {
-  .barra {
-    color: black;
-    padding: 30px;
-    border: 20px;
-    height: 40px;
-    font-size: 20px;
-    border-top: 10px beige solid;
-    border-bottom: 10px beige solid;
-    border-left: 10px beige solid;
-    border-right: 10px beige solid;
-    overflow: visible;
-    margin: 5%; }
-    .barra .barra :hover {
-      color: white; }
-      .barra .barra :hover .animate__animated {
-        font-size: 60px; }
-  h2 {
-    font-size: 15px; }
+  .encabezado {
+    font-size: 40px; }
   .fotos {
     gap: 25px;
     display: grid;
@@ -247,32 +206,28 @@ h5 {
     grid-template-areas: "foto1" "foto2"; }
     .fotos .fotos img {
       max-width: 80%; }
-  .recibimos {
-    font-size: 20px; }
   .texto2 {
-    font-size: 12px;
     text-align: center; }
-  .titulo {
-    font-size: 25px; }
   .lista {
-    font-size: 10px;
+    font-size: 15px;
     padding: 0; }
   .formulario {
-    font-size: 13px;
     margin: 20px;
     width: 50%; }
   .hr {
     border-color: black;
     border-width: 1px;
     border-radius: 1px; }
-  /*****GALERIA**********/
-  h3 {
-    font-size: 20px; }
-  .texto {
-    font-size: 15px; }
+  .titulo3 {
+    font-size: 1rem; }
+  .recibimos {
+    font-size: 1rem; }
+  .video {
+    width: auto;
+    padding: 60px;
+    display: flex;
+    justify-content: center; }
   /***************************NOSOTROS***************************/
-  h5 {
-    font-size: 29px; }
   .tabla {
     margin: 0 auto;
     font-size: 15px; } }
