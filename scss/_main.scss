@@ -54,17 +54,6 @@
     align-items: center;
     width: 20%;
 } 
-.formularioConsulta{
-    justify-content: start;
-    padding: 0 auto;
-    width: 50%;
-    &.textoConsulta{
-        color: black;
-        font-family: $montserrat;
-        font-size: 25px;
-        text-align: start;
-    }
-}
 
 .texto{
     color: black;
@@ -88,13 +77,11 @@
     @include titulo;
     font-size: 3rem;
 }
-.realiza{
-    font-size: 30px;
+.titulo4{
+    font-size: 40px;
+    font-family: $montserrat;
 }
-.formConsul{
-    display: flex;
 
-}
 /***************************NOSOTROS***************************/
 
 .table{

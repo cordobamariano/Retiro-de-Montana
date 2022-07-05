@@ -68,30 +68,29 @@
 
 <main>
         
-  <form id="formConsul">
+  <div class="formConsul">
 
-    <div class="textoConsulta col-md-6 ms-5 mt-5 mb-3"> Complete el siguiente formulario y en breve le enviaremos un presupueso detallado con nuestro servicios y nuestra mejor oferta</div>
-      <div class="fechaLlegada col-md-2 ms-5">
+    <div class="row">
+    
+      <div class="col-md-3 ms-5">
+    
+      <p class="textoConsulta col-md-6 ms-5 mt-5 mb-3"> Complete el siguiente formulario y en breve le enviaremos un presupueso detallado con nuestro servicios y nuestra mejor oferta</p>
+      
         <label for="Fecha Llegada" class="form-label">Fecha Llegada</label>
         <input type="date" class="form-control" id="Fecha Llegada"required>
-      </div>
-      <div class="fechaPartida col-md-2 ms-5 my-2">
+      
         <label for="Fecha Partida" class="form-label">Fecha Partida</label>
         <input type="date" class="form-control" id="Fecha Partida"required>
-      </div>
-      <div class="NombreApellido col-md-2 ms-5 my-2">
+      
       <label for="Nombre y Apellido" class="form-label">Nombre y Apellido</label><br>
       <input type="name" class="form-control" id="Nombre y Apellido" placeholder="Juan Perez"required>
-      </div>
-      <div class="numeroTelefono col-md-2 ms-5 my-2">
+      
          <label for="Numero de Telefono" class="form-label">Numero de telefono</label>
          <input type="numero" class="form-control" id="exampleInputNumber1" placeholder="0351-6850932">
-      </div>
-      <div class="emailForm col-md-2 ms-5 my-2">
+      
         <label for="Email1" class="form-label">Email</label>
         <input type="email" class="form-control" id="Email" placeholder="juanperez@hotmail.com"required>
-      </div>
-      <div class="adultos col-md-1 ms-5 my-2">
+      
         <label for="Adultos" class="form-label">Adultos</label>
         <select id="Adultos" class="form-select" required>
           <option selected>0</option>
@@ -99,8 +98,7 @@
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-      </div>
-      <div class="menores col-md-1 ms-5 my-2">
+      
         <label for="menores" class="form-label">Menores</label>
         <select id="menores" class="form-select" required>
           <option selected>0</option>
@@ -108,24 +106,28 @@
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-      </div>   
-      <div>
+      
         <button type="submit" class="btn btn-primary ms-5 my-2">Calcular</button>
-        </div>
-      <div class="h col-md-2 mx-5">
+        
+      
         <label for="Precio Final"></label>
         <input type="money"name="money">
         </div>
-    </form>
-  
-<p class="recibimos animate__animated animate__zoomIn">RECIBIMOS TODOS LOS MEDIOS DE PAGO💵💳</p>
+
+        <div class="col-md-8 ms-5">
+          <p class="recibimos animate__animated animate__zoomIn mt-5 mb-5">RECIBIMOS TODOS LOS MEDIOS DE PAGO💵💳</p>
        
 <ol class="lista">
-    <li class="lista animate__animated animate__fadeInTopLeft">Transferencia o deposito 10% de descuento</li>
-    <li class="lista animate__animated animate__fadeInTopLeft">Tarjetas 1 pago sin interes</li>
-    <li class="lista animate__animated animate__fadeInTopRight">Tarjetas 3 cuotas con 10% de recargo</li>
-    <li class="lista animate__animated animate__fadeInTopRight" >Tarjetas 6 cuotas con 15% de recargo</li>
+    <li class="lista animate__animated animate__fadeInTopLeft my-4">Transferencia o deposito 10% de descuento</li>
+    <li class="lista animate__animated animate__fadeInTopRight my-4">Tarjetas 1 pago sin interes</li>
+    <li class="lista animate__animated animate__fadeInTopLeft my-4">Tarjetas 3 cuotas con 10% de recargo</li>
+    <li class="lista animate__animated animate__fadeInTopRight my-4" >Tarjetas 6 cuotas con 15% de recargo</li>
 </ol>  
+        </div>
+      </div>
+    </form>
+  
+
 
      
 </main>
