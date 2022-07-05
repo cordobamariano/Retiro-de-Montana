@@ -17,6 +17,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/vaakash/socializer@2f749eb/css/socializer.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
 <meta name="keywords" content="alquiler, sierras, punilla, descanso, cabañas, la falda">
 <meta name="description" content="Veni a descansar a nuestras calidas cabañas ubicadas en La Falda, Córdoba">
@@ -57,8 +58,8 @@
           </nav>  
 
 <div class="fotos">
-   <img src="img/DSC_0003-min.jpg" width="550px" title="foto1" alt="">
-   <img src="img/DSC_0007-min.jpg" width="550px" title="foto2" alt="">
+   <img src="img/DSC_0003-min.jpg" width="700px" title="foto1" alt="">
+   <img src="img/DSC_0007-min.jpg" width="700px" title="foto2" alt="">
 </div>
     
 </header> 
@@ -66,40 +67,57 @@
 <!-- Main -->
 
 <main>
-                    
-<h2 class="titulo2"> CALCULA TU ESTADÍA</h2>
-               
-    <form class="formulario mx-auto">
-      <div class="a" .m-2>
+        
+  <form id="formConsul">
+
+    <div class="textoConsulta col-md-6 ms-5 mt-5 mb-3"> Complete el siguiente formulario y en breve le enviaremos un presupueso detallado con nuestro servicios y nuestra mejor oferta</div>
+      <div class="fechaLlegada col-md-2 ms-5">
         <label for="Fecha Llegada" class="form-label">Fecha Llegada</label>
         <input type="date" class="form-control" id="Fecha Llegada"required>
       </div>
-      <div class="b">
+      <div class="fechaPartida col-md-2 ms-5 my-2">
         <label for="Fecha Partida" class="form-label">Fecha Partida</label>
         <input type="date" class="form-control" id="Fecha Partida"required>
       </div>
-      <div class="c" m-2>
+      <div class="NombreApellido col-md-2 ms-5 my-2">
       <label for="Nombre y Apellido" class="form-label">Nombre y Apellido</label><br>
       <input type="name" class="form-control" id="Nombre y Apellido" placeholder="Juan Perez"required>
       </div>
-      <div class="d">
+      <div class="numeroTelefono col-md-2 ms-5 my-2">
          <label for="Numero de Telefono" class="form-label">Numero de telefono</label>
          <input type="numero" class="form-control" id="exampleInputNumber1" placeholder="0351-6850932">
       </div>
-      <div class="e">
+      <div class="emailForm col-md-2 ms-5 my-2">
         <label for="Email1" class="form-label">Email</label>
         <input type="email" class="form-control" id="Email" placeholder="juanperez@hotmail.com"required>
       </div>
+      <div class="adultos col-md-1 ms-5 my-2">
+        <label for="Adultos" class="form-label">Adultos</label>
+        <select id="Adultos" class="form-select" required>
+          <option selected>0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+      </div>
+      <div class="menores col-md-1 ms-5 my-2">
+        <label for="menores" class="form-label">Menores</label>
+        <select id="menores" class="form-select" required>
+          <option selected>0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+      </div>   
       <div>
-        <button type="submit" class="btn btn-primary">Calcular</button>
+        <button type="submit" class="btn btn-primary ms-5 my-2">Calcular</button>
         </div>
-      <div class="e">
+      <div class="h col-md-2 mx-5">
         <label for="Precio Final"></label>
         <input type="money"name="money">
         </div>
-        
     </form>
-
+  
 <p class="recibimos animate__animated animate__zoomIn">RECIBIMOS TODOS LOS MEDIOS DE PAGO💵💳</p>
        
 <ol class="lista">
@@ -107,7 +125,7 @@
     <li class="lista animate__animated animate__fadeInTopLeft">Tarjetas 1 pago sin interes</li>
     <li class="lista animate__animated animate__fadeInTopRight">Tarjetas 3 cuotas con 10% de recargo</li>
     <li class="lista animate__animated animate__fadeInTopRight" >Tarjetas 6 cuotas con 15% de recargo</li>
-</ol>   
+</ol>  
 
      
 </main>
@@ -118,7 +136,7 @@
     
 <footer>
 
-  <div id="haciaArriba">
+  <div id="haciaArriba" data-aos="fade-left">
     <a href="#top">
         <img src="img/up.png" alt="Ir hacia arriba">
     </a>
@@ -132,7 +150,11 @@
 </footer> 
 
 <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script> 
 
 </body>
 

@@ -18,6 +18,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/vaakash/socializer@2f749eb/css/socializer.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <meta name="keywords" content="alquiler, sierras, punilla, descanso, cabañas, la falda">
 <meta name="description" content="Veni a descansar a nuestras calidas cabañas ubicadas en La Falda, Córdoba">
 </head>
@@ -59,8 +60,8 @@
     
 
     <div class="fotos">
-    <img src="img/DSC_0038-min.jpg" width="550px" title="foto1" alt="">
-    <img src="img/DSC_0028-min.jpg" width="550px" title="foto2" alt="">
+    <img src="img/DSC_0038-min.jpg" width="700px" title="foto1" alt="">
+    <img src="img/DSC_0028-min.jpg" width="700px" title="foto2" alt="">
     </div>
  
   </header> 
@@ -68,32 +69,63 @@
   <!-- Main -->
     
   <main>
-
-   <h2 class="titulo2">Realiza tu consulta por este medio</h2>
-        
   
-    <form class="formulario mx-auto">
-        <div class="a">
-          <label for="Name" class="form-label">Nombre y apellido</label>
-          <input type="name" class="form-control" id="Name" placeholder="Juan Perez" required>
-        </div>
-        <div class="b">
+    <section id="container-xl form">
+
+      <p class="realiza mx-5">Realiza tu consulta por este medio</p>
+
+      <form class="row g-2">
+        <div class="row">
+         <div class="col-md-3 mx-5">
+                <label for="inputName" class="form-label">Nombre</label>
+                <input name="nombre" type="text" class="form-control" id="inputName" placeholder="Juan" required>
+            </div>
+        <div>
+          <div class="row">
+            <div class="col-md-3 mx-5" >
+                <label for="inputSurname" class="form-label">Apellido</label>
+                <input name="apellido" type="text" class="form-control" id="inputSurname" placeholder="Perez" required>
+            </div>
+          </div>
+        
+        <div class="col-md-6 mx-5">
           <label for="Email1" class="form-label">Email</label>
           <input type="email" class="form-control" id="Email" placeholder="juanperez@hotmail.com"required>
         </div>
-        <div class="c">
+        <div class="col-md-6 mx-5">
            <label for="Number1" class="form-label">Numero de telefono</label>
            <input type="numero" class="form-control" id="Number1" placeholder="0351-6850932">
         </div>
-        <div class="d">
-        <label for="Deja tu comentario">Deja tu consulta</label><br>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <div class="col-md-6 mx-5">
+          <label for="Text" class="form-label">Escriba su mensaje</label>
+          <textarea name="mensaje" class="form-control" aria-label="With textarea" required rows="6"></textarea>
         </div>
+        <div class="col-12 mx-5">
+          <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck" required>
+              <label class="form-check-label" for="gridCheck">
+              Acepto los términos y condiciones.
+              </label>
+          </div>
+        </form>
+      </section>
+      
         <div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
-        <button type="submit" class="btn btn-primary">Borrar datos</button>
+        <button type="submit" class="btn btn-primary mx-5">Enviar</button>
+        <button type="submit" class="btn btn-primary mx-4">Borrar datos</button>
         </div>
-      </form>
+
+      </section>
+
+      <div class="formulariop">
+          
+      <h4 class="titulo2 animate__animated animate__zoomIn"> UBICACIÓN</h4> 
+
+      <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3416.923013966184!2d-64.4789082843201!3d-31.08406838736761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d83a9995829d9%3A0xa4e132dcb5a4185d!2sLos%20Jazmines%20700%2C%20La%20Falda%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1655864307471!5m2!1ses!2sar" width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+    
+  </section>
 
   </main>
    
@@ -101,7 +133,7 @@
 
 <footer>
 
-  <div id="haciaArriba">
+  <div id="haciaArriba" data-aos="fade-left">
     <a href="#top">
         <img src="img/up.png" alt="Ir hacia arriba">
     </a>
@@ -116,7 +148,11 @@
 </footer> 
 
 <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script> 
 
 </body>
 </html>
