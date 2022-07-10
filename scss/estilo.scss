@@ -73,7 +73,8 @@ body{
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 90%;
+        width: 100%; 
+        height: 100%;
         margin: 5%;
 
     }
@@ -118,11 +119,12 @@ body{
     }
     .col2{
         justify-content: center;
-        margin: 5%
+        margin:5%
     }
     .mapa{
-        margin: 5%;
-        width: 90%;
+        margin: 16%;
+        width: 70%;
+        height: 60%;
     }
     .tarifas{
         margin-left: 30%;
@@ -202,6 +204,7 @@ body{
         align-items: center;
         justify-content: center;
         width: 90%;
+        height: 90%;
     }
     .tarifas{
         margin-left: 10%;
@@ -210,6 +213,11 @@ body{
     .consulta{
         margin: 0 auto;
         width: 80%;
+    }
+    .mapa{
+        margin-left: 10%;
+        width: 90%;
+        height: 40%;
     }
         
 }

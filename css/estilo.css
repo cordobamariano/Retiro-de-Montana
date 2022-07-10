@@ -99,6 +99,7 @@
 .lista {
   color: black;
   font-family: "Montserrat", sans-serif;
+  padding-top: 40px;
   font-size: 2rem;
   list-style-type: none;
   text-align: center;
@@ -167,7 +168,7 @@
 }
 
 .tarifas {
-  margin: 10%;
+  margin-left: 30%;
   gap: 5px;
   width: 50%;
 }
@@ -188,6 +189,7 @@
 .consulta {
   margin-left: 15%;
   width: 60%;
+  margin-left: 20%;
 }
 
 .table {
@@ -206,17 +208,6 @@
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-}
-
-.fotoss {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 40px;
-  width: 90%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 /***************************TODAS***************************/
@@ -295,7 +286,8 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 90%;
+    width: 100%;
+    height: 100%;
     margin: 5%;
   }
   .headerfoto {
@@ -345,8 +337,9 @@ body {
     margin: 5%;
   }
   .mapa {
-    margin: 5%;
-    width: 90%;
+    margin: 16%;
+    width: 70%;
+    height: 60%;
   }
   .tarifas {
     margin-left: 30%;
@@ -438,6 +431,7 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
     width: 90%;
+    height: 90%;
   }
   .tarifas {
     margin-left: 10%;
@@ -446,6 +440,11 @@ body {
   .consulta {
     margin: 0 auto;
     width: 80%;
+  }
+  .mapa {
+    margin-left: 10%;
+    width: 90%;
+    height: 40%;
   }
 }
 /*# sourceMappingURL=estilo.css.map */
