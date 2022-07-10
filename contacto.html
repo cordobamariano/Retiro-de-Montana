@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Contactanos</title>
     <link rel="shorticon icon" href="img/favicon-32x32.png">
+    <img src="./img/headerc.png" alt="" srcset="" style="width: 100%;">
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,8 +29,6 @@
   <!-- Header -->
 
     <header>
-   
-    <h1 class="encabezado animate__animated animate__fadeInDownBig">CONTACTO</h1>
         
     <nav class="navbar navbar-expand-lg bg-white">
         <div class="container-fluid" style="width: auto;">
@@ -42,7 +41,7 @@
                 <a class="nav-link active" aria-current="page" href="./index.html">INICIO</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./galeria.html">GALERIA</a>
+                <a class="nav-link" href="./galeria.html">GALERÍA</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./tarifas.html">TARIFAS</a>
@@ -60,8 +59,8 @@
     
 
     <div class="fotos">
-    <img src="img/DSC_0038-min.jpg" width="700px" title="foto1" alt="">
-    <img src="img/DSC_0028-min.jpg" width="700px" title="foto2" alt="">
+    <img src="img/DSC_0038-min.jpg" width="550px" title="foto1" alt="">
+    <img src="img/DSC_0028-min.jpg" width="550px" title="foto2" alt="">
     </div>
  
   </header> 
@@ -70,41 +69,51 @@
     
   <main>
   
-    <div class="row">
+    <div class="grid-container">
     
-      <div class="col-md-3 ms-5">
+      <div class="col1" >
 
-      <h4 class="titulo4 col-md-6 ms-5 mt-5 mb-3">Realiza tu consulta por este medio</h4>
+        <h2 class="titulo2">Realizá tu consulta</h2>
+
+        <div class="consulta"> 
       
-      <label for="inputName" class="form-label">Nombre</label>
-                <input name="nombre" type="text" class="form-control" id="inputName" placeholder="Juan" required>
-            
-                <label for="inputSurname" class="form-label">Apellido</label>
-                <input name="apellido" type="text" class="form-control" id="inputSurname" placeholder="Perez" required>
-           
-          <label for="Email1" class="form-label">Email</label>
+          <label for="inputName" class="form-label">Ingrese su nombre</label>
+          <input name="nombre" type="text" class="form-control"  id="inputName" placeholder="Juan" required>
+      
+          <label for="inputSurname" class="form-label">Ingrese su apellido</label>
+          <input name="apellido" type="text" class="form-control" id="inputSurname" placeholder="Perez" required>
+      
+          <label for="Email1" class="form-label">Ingrese su email</label>
           <input type="email" class="form-control" id="Email" placeholder="juanperez@hotmail.com"required>
         
-           <label for="Number1" class="form-label">Numero de telefono</label>
+           <label for="Number1" class="form-label">Ingrese su número de teléfono</label>
            <input type="numero" class="form-control" id="Number1" placeholder="0351-6850932">
         
           <label for="Text" class="form-label">Escriba su mensaje</label>
           <textarea name="mensaje" class="form-control" aria-label="With textarea" required rows="6"></textarea>
         
-              <input class="form-check-input" type="checkbox" id="gridCheck" required>
-              <label class="form-check-label" for="gridCheck">
-              Acepto los términos y condiciones.
-              </label>
-        
+          <input class="form-check-input" type="checkbox" id="gridCheck" required>
+          <label class="form-check-label" for="gridCheck">
+          Acepto los términos y condiciones.
+          </label>
+          <div>
+            <button type="submit" class="btn btn-primary mb-2">Enviar</button>
+          </div>    
+          <div>
+            <button type="submit" class="btn btn-primary">Borrar datos</button>
+          </div>
+        </div>  
+          
       
-        <button type="submit" class="btn btn-primary mx-5 mt-3">Enviar</button>
-        <button type="submit" class="btn btn-primary mx-1 mt-3">Borrar datos</button>
       </div>
 
-    <div class="col-md-6 ms-5">   
-      <h4 class="titulo2 animate__animated animate__zoomIn"> UBICACIÓN</h4> 
+    <div class="col2">   
+
+      <h4 class="titulo2 animate__animated animate__zoomIn mt-3"> Ubicación</h4> 
 
       <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3416.923013966184!2d-64.4789082843201!3d-31.08406838736761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942d83a9995829d9%3A0xa4e132dcb5a4185d!2sLos%20Jazmines%20700%2C%20La%20Falda%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1655864307471!5m2!1ses!2sar" width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      <h5 class="titulo5 animate__animated animate__zoomIn me-5">Los Jazmines 700, La Falda, Córdoba (5172)</h5>
 
     </div>
 
@@ -123,7 +132,7 @@
 
 <h3 class="titulo3">DISFRUTA DE LAS SIERRAS CORDOBESAS EN EL CORAZÓN DE PUNILLA</h3>
 
-<div class="socializer a sr-64px sr-zoom sr-fluid sr-font-lg sr-icon-dark sr-bg-none sr-sw-icon-1 sr-pad"><span class="sr-instagram"><a href="https://instagram.com" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></span><span class="sr-facebook"><a href="https://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></span><span class="sr-twitter"><a href="https://twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></span><span class="sr-email"><a href="https://outlook.live.com/mail/" target="_blank" title="Email"><i class="fa fa-envelope"></i></a></span><span class="sr-whatsapp"><a href="https://wa.me/5493516850932?text=Hola!%20Quisiera%20saber%20sobre%20las%20cabañas!" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a></span></div>
+<div class="socializer a sr-64px sr-zoom sr-fluid sr-font-lg sr-icon-dark sr-bg-none sr-sw-icon-1 sr-pad"><span class="sr-instagram"><a href="https://instagram.com/retirodemontana" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a></span><span class="sr-facebook"><a href="https://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></span><span class="sr-twitter"><a href="https://twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></span><span class="sr-email"><a href="https://outlook.live.com/mail/" target="_blank" title="Email"><i class="fa fa-envelope"></i></a></span><span class="sr-whatsapp"><a href="https://wa.me/5493516850932?text=Hola!%20Quisiera%20saber%20sobre%20las%20cabañas!" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a></span></div>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>   
 
