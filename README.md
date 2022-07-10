@@ -1,10 +1,8 @@
-# Retiro-de-Montana
-
-Esta página se creó como el proyecto final del curso de Desarrollo Web en CoderHouse por Mariano Córdba.
+Esta página se creó como el proyecto final del curso de Desarrollo Web en CoderHouse por Mariano Córdoba.
 
 Tema elegido: Retiro de Montaña, es una cabaña de mi familia que alquilamos temporalmente.
 
-Diseño responsive
+Dimensiones utilizadas para diseño responsive:
 
 - Deskopt
 - Tablet (Ipad Air - 820px)
