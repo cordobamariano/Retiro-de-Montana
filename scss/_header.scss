@@ -2,7 +2,9 @@
     background-color: beige;
     padding: 30px;
     height: 100%;
-    margin: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
     border-top: 10px beige solid;
     border-bottom: 10px beige solid;
     border-left: 10px beige solid;
@@ -34,6 +36,9 @@
                 transform: scale(1.2,1.2);
             } 
         } 
+    }
+.headerfoto{
+    width: 100%;
 }
 
   

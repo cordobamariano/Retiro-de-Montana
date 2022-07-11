@@ -19,7 +19,8 @@
     text-align: center;
     font-weight: bold;
     width: auto;
-    margin: 40px;
+    margin: 2%;
+    
 }
 
 .recibimos{
@@ -59,11 +60,10 @@
 .titulo3{
     @include titulo;
     background-color: $colorTitulo ;
+    font-weight: bold;
     font-size: 2.5rem;
     width: auto;
-    margin-top: 5%;
-    margin-right: 2%;
-    margin-left: 2%;
+    margin: 2%;
 }
 .titulo4{
     font-family: $montserrat;
@@ -88,11 +88,12 @@
     margin-left: 40px;
 }
 .col1{
-    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .col2{
-    margin-top: 10px;
-    margin-right: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .consulta{
     margin-left: 15%;
@@ -110,7 +111,5 @@
     @extend .texto
 }
 .mapa{
-    margin: 20px;
-    justify-content: center;
     width: 100%;
 }
