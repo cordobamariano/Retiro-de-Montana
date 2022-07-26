@@ -75,17 +75,7 @@
         <h2 class="titulo4"> Complete el siguiente formulario para obtener un presupuesto</h2>
         
         <div class="tarifas">
-          
-          <div class="fechall">
-            <label for="Fecha Llegada" class="form-label">Fecha Llegada</label>
-            <input type="date" class="form-control" style="width: 300px;" id="Fecha Llegada"required>
-          </div>
-
-          <div class="fechap">
-            <label for="Fecha Partida" class="form-label">Fecha Partida</label>
-            <input type="date" class="form-control" style="width: 300px;" id="Fecha Partida"required>
-          </div>
-        
+                 
           <div class="nombreap">
             <label for="Nombre y Apellido" class="form-label">Ingrese su nombre y apellido</label>
             <input type="name" class="form-control" style="width: 300px;" id="Nombre y Apellido"    placeholder="Juan Perez"required>
@@ -121,16 +111,25 @@
                   <option value="4">4</option>
                 </select>
           </div>
-                 
+          
+          <label>Fecha de llegada</label>
+          
+          <input type="date" id="timeStart" class="form-control" oninput="calcularDiasDiscount()">
+         
+          <label>Fecha de salida</label>
+          
+          <input type="date" id="timeEnd" class="form-control" oninput="calcularDiasDiscount()">
+            
+          <label>Días</label>
+          
+          <input class="form-control" id="daysDiscount">
+            
           <div class="calcular">
-            <button type="submit" class="btn btn-primary mt-2 mb-2" style="width: 200px;">Calcular</button>
-          </div>
-               
-          <div class="precio">
-            <label for="Precio Final"></label>
-            <input type="money" name="money" style="width: 200px;">
+              <button type="button" onclick="sumarDias()" class="btn btn-primary mt-2 mb-2" style="width: 200px;">Calcular</button>
           </div>
           
+          <h3 class="estadía">Su estadía tendrá un costo de $<span id="calculoTotal"></span></h3>
+
         </div>
         
       </div>
@@ -161,7 +160,7 @@
     </a>
   </div>
 
-<h3 class="titulo3">DISFRUTA DE LAS SIERRAS CORDOBESAS EN EL CORAZÓN DE PUNILLA</h3>
+<h3 class="titulo3">DISFRUTÁ DE LAS SIERRAS CORDOBESAS EN EL CORAZÓN DE PUNILLA</h3>
 
 <div class="socializer a sr-64px sr-zoom sr-fluid sr-font-lg sr-icon-dark sr-bg-none sr-sw-icon-1 sr-pad">
   <span class="sr-instagram">
